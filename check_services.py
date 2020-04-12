@@ -38,16 +38,6 @@ def send_error_message(url):
                   "text": "Website {} is down! 🤷‍♂️".format(url)})
 
 
-def send_ok_message(url):
-        return requests.post(
-            MAILGUN_DOMAIN_URL,
-            auth=("api", MAILGUN_API_KEY),
-            data={"from": SENDER_EMAIL,
-                  "to": [RECIPIENT_EMAIL],
-                  "subject": "{} is up! 👍".format(url),
-                  "text": "Website {} is up!".format(url)})
-
-
 def send_final_ok_message():
         return requests.post(
             MAILGUN_DOMAIN_URL,

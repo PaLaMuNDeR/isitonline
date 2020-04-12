@@ -5,7 +5,7 @@ sites = [
     "https://yahoo.com"
 ]
 MAILGUN_DOMAIN_URL = "https://api.eu.mailgun.net/v3/<YOUR_DOMAIN_NAME_GOES_HERE>/messages"
-MAILGUN_API_KEY = "<YOUR_MAIL_GUN_KEY_GOES_HERE>"
+MAILGUN_API_KEY = "<YOUR_MAILGUN_KEY_GOES_HERE>"
 SENDER_EMAIL = "My Email <my@email.com>"
 RECIPIENT_EMAIL = "recipient@mail.com"
 

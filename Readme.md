@@ -9,5 +9,6 @@ setup crontab to run everyday at 08:45 AM with:
 ```
 crontab -e
 
-45 8 * * * cd /Users/martin/PycharmProjects/isitonline/ && ./venv/bin/python3.6 check_services.py 
+45 8 * * * cd /<DOWNLOADED_FOLDER>/isitonline/ && ./venv/bin/python3.6 check_services.py 
+
 ```

@@ -1,7 +1,7 @@
 Checks if the websites in the array of check_services.py are up and sends automated email.
 
-1. Setup the list of the urls you want to be checked at (check_services.py)[check_services.py]
-2. Setup an account at (Mailgun)[https://mailgun.com] and insert the API and domain link.
+1. Setup the list of the urls you want to be checked at [check_services.py](check_services.py)
+2. Setup an account at [Mailgun](https://mailgun.com) and insert the API and domain link.
 
 create python3 venv and add it in the crontab path
 
